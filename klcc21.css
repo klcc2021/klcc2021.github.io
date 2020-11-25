@@ -1,0 +1,343 @@
+/* General */
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:ital,wght@0,900;1,900);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;500&display=swap');
+@import url(http://fonts.googleapis.com/css?family=Droid Sans Mono);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Condensed=swap);
+@import url(http://fonts.googleapis.com/css?family=Vollkorn);
+
+
+body {
+  background-color: #d9d9d9;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  text-align: justify;
+  }
+/*
+.container{
+  position: relative; 
+  text-align: center;
+  color: white;
+}
+
+header {
+  background-image: url("./cornell07.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+/*
+.centered{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+*/
+
+#shade {
+  width: 950px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  }
+
+#content {
+  width: 900px;
+  margin-top: -18px;
+  margin-bottom: 0px;
+  margin-right: 25px;
+  margin-left: 25px;
+  background: white;
+  border: 1px solid black;
+  min-height: 100px;
+  }
+
+* html #content {
+  height: 100px;
+}
+
+/* #tabs is the menu div. */
+
+#tabs {
+   font-family: Ubuntu Condensed, sans-serif;
+   font-weight: bold;
+  float: left;
+  width: 100%;
+  /*border-top: 1px solid #bebebe;*/
+  background: #000000;
+  font-size: 100%;
+  line-height: normal;
+}
+
+#tabs ul {
+  margin: 0px;
+  padding: 5px 0px 0px 15px;
+  font-family: Ubuntu Condensed, sans-serif;
+}
+
+#tabs li {
+  display: inline;
+  margin: 0px;
+  padding-left: 0px;
+  font-size: 12px;
+}
+
+#tabs a {
+  float: left;
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  margin-left: 5px;
+  text-decoration: none;
+  font-family: Ubuntu Condensed, sans-serif;
+  font-size: 17.5px;
+  }
+
+#tabs a span {
+  float: left;
+  display: block;
+  background: #000000;
+  padding: 7px 15px 7px 15px;
+  color: white;
+  font-family: Ubuntu Condensed, sans-serif;
+}
+
+#tabs a active {
+  float: left;
+  display: block;
+  padding: 7px 15px 7px 15px;
+  color: black;
+  background: #fff;
+}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a span {float:none;}
+#tabs a active {float:none;}
+/* End IE5-Mac hack */
+
+#tabs a:hover span {
+   color: #adacac;
+}
+
+#tabs ul a:hover {
+  border-bottom: none;
+}
+
+#tabs a:hover {
+  background-position: 0% -42px;
+  border-bottom: none;
+ }
+
+
+#tabs a:hover span {
+  background-position: 100% -42px;
+}
+
+#title {
+  top: 0px;
+  left: 0px;
+  margin-left: 50px;
+  margin-bottom: 0px;
+  background-color: white;
+  width: 700px;
+}
+
+#pub {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 15px 0px 10px 0px;
+	/*	border-top: 1px solid #323336;
+	border-bottom: 1px solid #323336; */
+	background: white;
+	width: 800px;
+	min-height: 222px;
+}
+
+#pub2 {
+	font-family: Ubuntu, sans-serif;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 0px 0px 10px 0px;
+	/*	border-top: 1px solid #323336;
+	border-bottom: 1px solid #323336; */
+	background: white;
+	width: 700px;
+}
+#friday{
+  font-family: Ubuntu, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0px 0px 10px 0px;
+  /*  border-top: 1px solid #323336;
+  border-bottom: 1px solid #323336; */
+  background: white;
+  width: 700px;
+}
+
+#saturday{
+  font-family: Ubuntu, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0px 0px 10px 0px;
+  /*  border-top: 1px solid #323336;
+  border-bottom: 1px solid #323336; */
+  background: white;
+  width: 700px;
+}
+
+#sunday{
+  font-family: Ubuntu, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 0px 0px 10px 0px;
+  /*  border-top: 1px solid #323336;
+  border-bottom: 1px solid #323336; */
+  background: white;
+  width: 700px;
+}
+
+/* Text Definitions */
+
+/* for all pages. */
+p {
+  font-family: Ubuntu, sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: black;
+  text-align: justify;
+}
+
+h1 {
+  font-family: Roboto, sans-serif;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 0px 40px 0px 50px;
+  margin-top: -10px
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-family: Roboto, sans-serif;
+  color: #333;
+  font-size: 20px;
+  margin-top: -10px;
+  padding: 0px 0px 0px 50px;
+}
+
+h3 {
+  font-family: Roboto, sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  margin-top: -20px;
+}
+
+h4 {
+  font-family: Roboto Slab, serif;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom:-5px;
+}
+
+h5 {
+  font-family: Ubuntu, sans-serif;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+  margin-bottom:-10px;
+}
+
+ul {
+   list-style-position: outside;
+   font-family: Ubuntu Condensed, sans-serif;
+   font-size: 18px;
+   line-height: 150%;
+   color: black;
+   text-align: justify;
+   padding-left: 18px;
+}
+
+li {
+   font-family: Ubuntu, sans-serif;
+   font-size: 17px;
+   line-height: 150%;
+   color: black;
+   text-align: justify;
+}
+
+a {
+   font-family: Ubuntu Condensed, sans-serif;
+   text-decoration: underline;
+   color: #000080;
+   font-size: 18px;
+}
+
+a:hover {
+  border-bottom: 1px dotted #000099;
+}
+
+
+/* Tables */
+
+#contents table {
+	font-family: Ubuntu, sans-serif;
+   margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 0px 0px 10px 0px;
+	/*	border-top: 1px solid #323336;
+	border-bottom: 1px solid #323336; */
+	background: white;
+	width: 700px;
+}
+
+#contents table th {
+	font-family: Ubuntu, sans-serif;
+   padding:5px;
+   font-size:15px;
+   text-align:left;
+   border:1px solid #ddd;
+   background:#cfcfcf;
+}
+
+#contents table td {
+	font-family: Ubuntu, sans-serif;
+   padding:5px;
+   font-size:15px;
+   text-align:left;
+   border:1px solid #ddd;
+}
+
+
+/* ========PAGETOP CUSTOMIZE========= */
+#pageTop {
+	font-family: Ubuntu, sans-serif;
+   padding:10px 0;
+   text-align:center;
+}
+
+#pageTop a {
+	font-family: Ubuntu, sans-serif;
+   padding:0 0 0 12px;
+   background:url(../images/bg_pagetop.gif) 0 60% no-repeat;
+}
