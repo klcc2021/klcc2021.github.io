@@ -216,7 +216,7 @@ header {
 
 /* for all pages. */
 p {
-  font-family: Roboto, sans-serif;
+  font-family: Ubuntu, sans-serif;
   font-size: 18px;
   line-height: 150%;
   color: black;
@@ -285,7 +285,7 @@ li {
 }
 
 a {
-   font-family: Ubuntu Condensed, sans-serif;
+   font-family: Ubuntu, sans-serif;
    text-decoration: underline;
    color: #000080;
    font-size: 18px;
